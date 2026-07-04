@@ -1,0 +1,11 @@
+{
+  "name": "creator-directory",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Creator Directory Admin Dashboard - monorepo root",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "install:all": "npm --prefix server install && npm --prefix web install"
+  }
+}
